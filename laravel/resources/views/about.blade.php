@@ -43,7 +43,7 @@
         <h1>Merhaba, <strong>{{ $isim }}</strong>!</h1>
 
         <p>
-            Bu sayfaya hoş geldin. Burası senin dinamik hakkımda sayfan.
+            Bu sayfaya hoş geldin. 
         </p>
         <p>
             İşte ben Laravel öğrenmekteyim ve bu da benim parametreli route kullanarak oluşturduğum

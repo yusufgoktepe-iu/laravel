@@ -16,4 +16,4 @@ Route::get('/about/{name}', function ($name) {
     return view('about', ['name' => $name]);
 });
 */
-Route::get('about/{name}', [PageController::class, 'showAbout']);
+Route::get('about/{name?}', [PageController::class, 'showAbout']);
